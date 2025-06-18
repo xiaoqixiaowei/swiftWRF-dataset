@@ -1,9 +1,9 @@
 # SwiftWRF: Spectrum Dataset for Single-Sided Movable Scenarios
 
-This repository provides the open-source **RFID spectrum dataset** used in the paper  
+This repository provides the open-source **RFID spectrum dataset** used in the paper:  
 📄 **[Rasterizing Wireless Radiance Field via Deformable 2D Gaussian Splatting](https://arxiv.org/abs/2506.12787)**.
 
-The dataset covers a variety of **single-sided movable scenarios** and is intended for research on wireless field reconstruction.
+The dataset covers a variety of **single-sided movable scenarios** and is intended for research on wireless field reconstruction and generative modeling of spectrum data.
 
 ---
 
@@ -17,10 +17,17 @@ You can download the dataset from the following link:
 
 ## 📁 Dataset Contents
 
-- `spectrum/`: heatmaps in 360×90 PNG format
-- tx_index.txt
-- rx_index.txt
-- Multiple subfolders for different movable scenarios
+- `spectrum/`: AoA heatmaps in 360×90 PNG format
+- `tx_index.txt`: Indices of transmitters in the scene
+- `rx_index.txt`: Indices of receivers (or gateways)
+- Multiple subfolders for different movable scene configurations
+
+---
+
+## 💻 Code
+
+The official implementation for the SwiftWRF method and dataset usage can be found at:  
+👉 [https://evan-sudo.github.io/swiftwrf/](https://evan-sudo.github.io/swiftwrf/)
 
 ---
 
@@ -38,4 +45,3 @@ If you use this dataset, please cite the following paper:
   primaryClass  = {cs.CV},
   url       = {https://arxiv.org/abs/2506.12787},
 }
-```
