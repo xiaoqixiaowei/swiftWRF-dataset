@@ -27,7 +27,7 @@ You can download the dataset from the following link:
 ## 💻 Code
 
 The official implementation for the SwiftWRF method and dataset usage can be found at:  
-👉 [https://evan-sudo.github.io/swiftwrf/](https://evan-sudo.github.io/swiftwrf/)
+👉 [https://github.com/Evan-sudo/Swift_WRF](https://github.com/Evan-sudo/Swift_WRF)
 
 ---
 
